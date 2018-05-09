@@ -13,7 +13,7 @@ def load_library(path)
   end
   puts hash
 end
-
+load_library(path)
 
 def get_japanese_emoticon(path,emoticon)
   # code goes here
