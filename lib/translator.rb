@@ -1,6 +1,6 @@
 # require modules here
 require "yaml"
-
+path="./lib/emoticons.yml"
 
 def load_library(path)
   emoticons = YAML.load_file(path)
@@ -13,7 +13,7 @@ def load_library(path)
   end
   hash
 end
-
+load_library(path)
 
 def get_japanese_emoticon(path,emoticon)
   # code goes here
