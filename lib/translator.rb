@@ -11,9 +11,9 @@ def load_library(path)
     hash["get_meaning"][japanese] = x
     hash["get_emoticon"][english] = japanese
   end
-  hash
+  puts hash
 end
-load_library(path)
+
 
 def get_japanese_emoticon(path,emoticon)
   # code goes here
